@@ -1,0 +1,115 @@
+import { StyleSheet } from 'react-native';
+
+export default StyleSheet.create({
+  loadingContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5EFE6',
+  },
+  emptyContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5EFE6',
+    fontFamily: 'System',
+  },
+  orderCard: {
+    backgroundColor: '#FFF8F0',
+    marginVertical: 10,
+    padding: 20,
+    marginHorizontal: 20,
+    borderRadius: 12,
+    shadowColor: '#000',
+    shadowOpacity: 0.1,
+    shadowRadius: 6,
+    shadowOffset: { width: 0, height: 3 },
+    elevation: 3,
+  },
+  orderDate: {
+    fontSize: 14,
+    fontWeight: '500',
+    color: '#7D6B53',
+    marginBottom: 10,
+    fontFamily: 'System',
+  },
+  orderItem: {
+    marginBottom: 10,
+  },
+  itemName: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: '#4B3832',
+    fontFamily: 'System',
+  },
+  itemPrice: {
+    fontSize: 14,
+    color: '#7D6B53',
+    fontFamily: 'System',
+  },
+  removedIngredients: {
+    fontSize: 13,
+    fontStyle: 'italic',
+    color: '#BFA6A0',
+    marginTop: 2,
+    fontFamily: 'System',
+  },
+  suggestions: {
+    fontSize: 13,
+    marginTop: 2,
+    color: '#6F4E37',
+    fontFamily: 'System',
+  },
+  totalAmount: {
+    fontSize: 18,
+    fontWeight: '700',
+    color: '#6F4E37',
+    marginTop: 15,
+    fontFamily: 'System',
+  },
+  orderButtons: {
+    flexDirection: 'row',
+    marginTop: 15,
+    justifyContent: 'flex-end',
+  },
+  cancelButton: {
+    backgroundColor: '#A0522D',
+    paddingVertical: 8,
+    paddingHorizontal: 15,
+    borderRadius: 20,
+    marginRight: 10,
+  },
+  cancelButtonText: {
+    color: '#FFF8F0',
+    fontWeight: '600',
+    fontSize: 14,
+    fontFamily: 'System',
+  },
+  confirmButton: {
+    backgroundColor: '#6F4E37',
+    paddingVertical: 8,
+    paddingHorizontal: 15,
+    borderRadius: 20,
+  },
+  confirmButtonText: {
+    color: '#FFF8F0',
+    fontWeight: '600',
+    fontSize: 14,
+    fontFamily: 'System',
+  },
+  header: {
+    backgroundColor: '#6F4E37',
+    paddingTop: 40,
+    paddingBottom: 15,
+    paddingHorizontal: 20,
+    justifyContent: 'center',
+    height: 90,
+  },
+  headerTitle: {
+    color: '#FFF8F0',
+    fontSize: 22,
+    fontWeight: 'bold',
+    fontFamily: 'System',
+  },
+  
+});
