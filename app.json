@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Jai-Coffee-App",
+    "slug": "Jai-Coffee-App",
+    "version": "1.0.0",
+    "icon": "./assets/kuyaJaiLogo.jpg",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/kuyaJaiLogo.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.onaj.jaicoffee"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ccb30a32-acac-461a-9355-892586d86efc"
+      }
+    }
+  }
+}
